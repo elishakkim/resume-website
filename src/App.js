@@ -7,7 +7,7 @@ import { Footer as MyFooter } from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
 
 function App() {

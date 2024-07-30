@@ -35,7 +35,7 @@ export const JOB_DESCRIPTION = {
 
 export const JOBS = [
   {
-    timeframe: 'Current',
+    timeframe: '2023 - Current',
     title: 'Software Engineer II',
     location: 'The Home Depot | Atlanta, GA',
     experience: 'homeDepotII'

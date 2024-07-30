@@ -6,7 +6,6 @@ import { JOBS } from "../files/ExperienceContstants";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Info.scss'
-import './Experience.scss'
 
 const { Title } = Typography;
 

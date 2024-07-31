@@ -14,10 +14,10 @@ export const Job = (props) => {
     <>
       <div className="row">
         <div className="col-sm-2 col-md-3">
-          <b>{timeframe}</b>
+          <b>{title}</b>
         </div>
         <div className="col-sm-10 col-md-9">
-          <b>{title}</b>
+          <b>{timeframe}</b>
           <br />
           <i>{location}</i>
         </div>

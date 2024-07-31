@@ -59,7 +59,7 @@ export const JOBS = [
   },
   {
     timeframe: '2018 - 2019',
-    title: 'Deputy Campaign Manager',
+    title: 'Dep. Campaign Manager',
     location: 'GA State House Rep. Sam Park | Lawrenceville, GA',
     experience: 'deputyCampaignManager'
   }

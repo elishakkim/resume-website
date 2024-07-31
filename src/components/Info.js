@@ -47,10 +47,21 @@ export const Info = () => {
         <div className='container'>
           <div className="row">
             <div className="col-4 fw-bold">Contact:</div>
-            <div className="col-8">{InfoConstants.email}</div>
+            <div className="col-8">
+              <div>{InfoConstants.phone}</div>
+              <div>{InfoConstants.email}</div>
+            </div>
+            
           </div>
         </div>
       </Title>
+      <Divider orientation="left">
+        <Title level={2}>
+          <BarsOutlined className="info-header-icon" />
+          Skills
+        </Title>
+      </Divider>
+      <Skills />
       <Divider orientation="left">
         <Title level={2} className='info-title'>
           <ReadOutlined className="info-header-icon" />
@@ -90,13 +101,7 @@ export const Info = () => {
           </div>
         </div>
       </Title>
-      <Divider orientation="left">
-        <Title level={2}>
-          <BarsOutlined className="info-header-icon" />
-          Skills
-        </Title>
-      </Divider>
-      <Skills />
+      
     </div>
   )
 }

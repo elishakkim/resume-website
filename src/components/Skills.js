@@ -10,23 +10,30 @@ export const Skills = () => {
       <div className="skills-info">
         <div className="information-header">Front-End</div>
         <ul>
+          <li>React + Redux</li>
+          <li>Javascript + Typescript</li>
           <li>HTML</li>
           <li>CSS + Flexbox</li>
           <li>Bootstrap + Tailwind</li>
           <li>ASP.Net</li>
-          <li>React + Redux</li>
-          <li>Javascript + Typescript</li>
         </ul>
       </div>
       <div className="skills-info">
         <div className="information-header">Back-End</div>
         <ul>
           <li>Java</li>
-          <li>SQL</li>
           <li>Node.js</li>
           <li>C#</li>
-          <li>GraphQL</li>
           <li>Python</li>
+        </ul>
+      </div>
+      <div className="skills-info">
+        <div className="information-header">Databases</div>
+        <ul>
+          <li>GraphQL</li>
+          <li>Microsoft SQL Server</li>
+          <li>NRQL</li>
+          <li>BigQuery SQL</li>
         </ul>
       </div>
       <div className="skills-info">

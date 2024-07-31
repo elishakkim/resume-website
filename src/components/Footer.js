@@ -15,6 +15,17 @@ export const Footer = ({scrollToTop}) => {
         shape='circle'
         onClick={scrollToTop}
       />
+      <div
+       style={{ fontSize: 'larger'}}
+      >
+        <a 
+          href='/Elisha_Kim_Resume.pdf' 
+          download='Elisha_Kim_Resume.pdf'
+          style={{ color: 'rgb(25 106 183)'}}
+        >
+          Download Resume
+        </a> (.pdf)
+      </div>
       <div>This resume is mobile friendly.</div>
       <div>Last updated on July 29, 2024</div>
       <div>

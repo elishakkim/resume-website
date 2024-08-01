@@ -19,7 +19,7 @@ export const Footer = ({scrollToTop}) => {
        style={{ fontSize: 'larger'}}
       >
         <a 
-          href='/Elisha_Kim_Resume.pdf' 
+          href={`${process.env.PUBLIC_URL}/Elisha_Kim_Resume.pdf`} 
           download='Elisha_Kim_Resume.pdf'
           style={{ color: 'rgb(25 106 183)'}}
         >

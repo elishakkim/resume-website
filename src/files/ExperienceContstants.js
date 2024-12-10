@@ -1,23 +1,25 @@
 export const JOB_DESCRIPTION = {
   homeDepotII: [
-    'Utilized New Relic and Quantum Metric to identify and reduce core web vitals (CLS, LCP, INP, TTFB) and address issues related to server-side rendering, javascript, and component errors.',
-    'Led innovation weeks with a core group of engineers to design and build new features for A/B testing and deployment, resulting in improved user engagement.',
-    'Conducted technical interviews for software engineering candidates, focusing on React, version control systems, core web vitals, JavaScript, TypeScript, HTML, CSS, data structures, and algorithms.',
-    'Drafted Architectural Decision Records (ADRs) and presented them to principal engineers, managers, and directors. Addressed critical decisions on web traffic management, impact on SEO rankings, core web vitals, and engineering longevity.',
-    'Implemented a wide range of process improvements within the team, including mitigating rollbacks in the deployment process, reducing onboarding time and complexity, and enhancing cross-knowledge transfer between teams across different departments.'
+    'Served as the primary contributor to developing the cross-sell up-sell feature, integrating 100,000+ SKUs across general merchandise and major appliance categories. Designed and implemented swap and remove functionally, enabling customizable product bundles and driving add-on sales.',
+    'Authored Architectural Decision Records (ADRs) to document critical decisions on web traffic management, SEO strategy, core web vitals optimization, and long-term engineering scalability, providing stakeholders with clear technical justifications and actionable recommendations.',
+    'Conducted technical interviews to evaluate software engineering candidates’ expertise in React, version control, core web vitals, JavaScript, TypeScript, HTML, CSS, and algorithms.',
+    '​​Leveraged New Relic and Quantum Metric to build dashboards and enhance web performance by reducing core web vitals (CLS, LCP, INP, TTFB) and addressing issues with server-side rendering, JavaScript, and component errors.',
+    'Led innovation weeks with engineers, product managers, and UX designers to create a new cart drawer feature, employing AB testing, and leading the feature to production.',
+    'Streamlined the release process and boosted deployment efficiency by adopting A/B/C audience segmentation during beta testing and leveraging GitHub Actions to automate performance regression scenarios, optimizing SSR and Core Web Vitals metrics.'
   ],
   homeDepotI: [
-    'Collaborated with the interactive database management team to implement new features for 100,000s of SKUs using Java and React. Led major front-end refactor to integrate an in-house calculator, involving significant backend work, and developed item bundling functionality.',
-    'Served as release captain, overseeing code reviews, managing deployments to staging, beta and production environments. Collaborated with SREs and other stakeholders to resolve production and beta issues, including core web vitals and bugs in feature work.',
-    'Refactored React code to enhance modularity and reusability by decoupling components.',
-    'Participated in major code migrations, deprecating legacy systems and transitioning to modern technologies.',
-    'Led a documentation-oriented engineering task force to consolidate sources of truth, write needed documentation, investigate best documentation practices, and implement effective practices organization-wide.'
+    'Led a major frontend refactor of an in-house calculator for 300,000+ SKUs using Java and React, integrating new IDM objects into the API, improving data consistency, and expanding bulk purchasing workflows on the front end.',
+    'Served as release captain on a monthly basis, overseeing code reviews and deployments to production and beta while collaborating with SREs and stakeholders to resolve issues and improve Core Web Vitals. Facilitated war rooms during critical incidents and conducted post-mortems to drive continuous improvement.',
+    'Refactored React code for key components supporting product variant selection and multi-product package displays, widely used across most Home Depot’s item categories, enhancing modularity and maintainability.',
+    'Facilitated the adoption of Tailwind for streamlined styling, performed a major version bump for Node.js while resolving dependency issues, and integrated Contentful for scalable content management, deprecating legacy systems.',
+    'Led a documentation task force to consolidate sources and create new guidelines to establish a single source of truth. Authored key documentation to streamline onboarding across the organization.'
   ],
   aCloserLook: [
-    'Converted over 20 ASP.Net pages from the client and employee portals into React + Redux, resulting in increase page load speed and improved user experience.',
-    'Built a REST service using Node.js and SQL Server to enhance data retrieval and integration, resulting in improvement in application performance.',
-    'Implemented security features for user permissions within ACL\'s client and employee portal, including role-based access control, significantly enhancing overall security and compliance with industry standards.',
-    'Constructed triggers, designed tables, and implemented robust stored procedures for data retrieval, improving database performance and management.'
+    'Modernized 20+ client and employee portal pages by migrating from ASP.Net to React and Redux, resulting in a 30% faster page load time and improved user experience.',
+    'Harnessed Node.js and SQL Server to build a highly scalable REST service, enlisting efficient data retrieval and seamless integration for significantly improved application performance and reliability',
+    'Implemented advanced security features, including role-based access controls, in ACL’s client and employee portals to enhance data security and ensure compliance with industry standards.',
+    'Built a shopper sign-up page, handling functionality from the front end to the database; integrated email and password validation, email verification, and secure password encryption to protect user data and adhere to security best practices.',
+    'Utilized SQL to construct triggers, design tables, and implement robust stored procedures, enhancing database performance, reliability, and management efficiency.',
   ],
   chiefOfStaff: [
     'Recruited and onboarded a diverse team, supervised daily operations, oversaw salary administration, and fostered a collaborative work environment to meet the office\'s goals.',

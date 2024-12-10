@@ -21,17 +21,17 @@ export const JOB_DESCRIPTION = {
     'Built a shopper sign-up page, handling functionality from the front end to the database; integrated email and password validation, email verification, and secure password encryption to protect user data and adhere to security best practices.',
     'Utilized SQL to construct triggers, design tables, and implement robust stored procedures, enhancing database performance, reliability, and management efficiency.',
   ],
-  chiefOfStaff: [
-    'Recruited and onboarded a diverse team, supervised daily operations, oversaw salary administration, and fostered a collaborative work environment to meet the office\'s goals.',
-    'Composed resolutions for the Georgia State House, and wrote speeches for the Representative, effectively communicating and representing the Representative\'s office and engaging with the people of Georgia.',
-    'Engaged with leaders at local, state, and national levels to advocate for our constituent groups and built strategic relationships with key organizations and offices to collaborate on Get Out the Vote (GOTV), legislation, census, and other key initiatives.',
-  ],
-  deputyCampaignManager: [
-    'Directed successful fundraising campaigns, securing substantial contributions to support organizational initiatives, with a significant portion allocated to our fellowship program. Our race ranked 6th in fundraising among the 472 candidates who ran for the Georgia State House.',
-    'Started a fellowship program, providing training and mentorship in voter outreach, policy planning, social media blasts, and event planning. Organized one of the largest canvassing efforts in the county.',
-    'Drafted campaign literature, wrote candidate speeches, and assisted with policy points to clearly communicate the candidate\'s platform.',
-    'Set up key meetings through town halls and one-on-ones with constituents and local leaders to discuss policy matters, gather support, and forge relationships, ensuring that the campaign represented the voices of the people in District 101.'
-  ]
+  // chiefOfStaff: [
+  //   'Recruited and onboarded a diverse team, supervised daily operations, oversaw salary administration, and fostered a collaborative work environment to meet the office\'s goals.',
+  //   'Composed resolutions for the Georgia State House, and wrote speeches for the Representative, effectively communicating and representing the Representative\'s office and engaging with the people of Georgia.',
+  //   'Engaged with leaders at local, state, and national levels to advocate for our constituent groups and built strategic relationships with key organizations and offices to collaborate on Get Out the Vote (GOTV), legislation, census, and other key initiatives.',
+  // ],
+  // deputyCampaignManager: [
+  //   'Directed successful fundraising campaigns, securing substantial contributions to support organizational initiatives, with a significant portion allocated to our fellowship program. Our race ranked 6th in fundraising among the 472 candidates who ran for the Georgia State House.',
+  //   'Started a fellowship program, providing training and mentorship in voter outreach, policy planning, social media blasts, and event planning. Organized one of the largest canvassing efforts in the county.',
+  //   'Drafted campaign literature, wrote candidate speeches, and assisted with policy points to clearly communicate the candidate\'s platform.',
+  //   'Set up key meetings through town halls and one-on-ones with constituents and local leaders to discuss policy matters, gather support, and forge relationships, ensuring that the campaign represented the voices of the people in District 101.'
+  // ]
 }
 
 export const JOBS = [
@@ -53,16 +53,16 @@ export const JOBS = [
     location: 'A Closer Look | Norcross, GA',
     experience: 'aCloserLook'
   },
-  {
-    timeframe: '2019 - 2020',
-    title: 'Chief of Staff',
-    location: 'GA State House Rep. Sam Park | Atlanta, GA',
-    experience: 'chiefOfStaff'
-  },
-  {
-    timeframe: '2018 - 2019',
-    title: 'Dep. Campaign Manager',
-    location: 'GA State House Rep. Sam Park | Lawrenceville, GA',
-    experience: 'deputyCampaignManager'
-  }
+  // {
+  //   timeframe: '2019 - 2020',
+  //   title: 'Chief of Staff',
+  //   location: 'GA State House Rep. Sam Park | Atlanta, GA',
+  //   experience: 'chiefOfStaff'
+  // },
+  // {
+  //   timeframe: '2018 - 2019',
+  //   title: 'Dep. Campaign Manager',
+  //   location: 'GA State House Rep. Sam Park | Lawrenceville, GA',
+  //   experience: 'deputyCampaignManager'
+  // }
 ]

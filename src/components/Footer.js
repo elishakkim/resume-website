@@ -18,16 +18,25 @@ export const Footer = ({scrollToTop}) => {
       <div
        style={{ fontSize: 'larger'}}
       >
-        <a 
-          href={`${process.env.PUBLIC_URL}/Elisha_Kim_Resume.pdf`} 
+        <a
+          href={`${process.env.PUBLIC_URL}/Elisha_Kim_Resume_2026_Short.pdf`}
           download='Elisha_Kim_Resume.pdf'
           style={{ color: 'rgb(25 106 183)'}}
         >
           Download Resume
         </a> (.pdf)
       </div>
+      <div>
+        <a
+          href={`${process.env.PUBLIC_URL}/Elisha_Kim_Resume_2026.pdf`}
+          download='Elisha_Kim_Resume_Full.pdf'
+          style={{ color: 'rgb(25 106 183)'}}
+        >
+          Full version
+        </a> (2 pages, .pdf)
+      </div>
       <div>This resume is mobile friendly.</div>
-      <div>Last updated on July 29, 2024</div>
+      <div>Last updated on October 16, 2026</div>
       <div>
       <Button
         size="large"
